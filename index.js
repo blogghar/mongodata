@@ -21,3 +21,6 @@ var mongoose = require("mongoose");
 mongoose.connect("mongodb://localhost:27017/college")
 .then(()=>console.log("connected"))
 .catch((err)=>console.log(err));
+
+console.log("hello how are you ");
+
